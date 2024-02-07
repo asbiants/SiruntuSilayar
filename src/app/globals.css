@@ -1,11 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply text-black;
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+}
+.font-qwitcher {
+  font-family: "Qwitcher Grypen", cursive;
+}
+.font-playfair {
+  font-family: "Playfair Display", serif;
+}
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+/* Gambar default (gambar a) */
+.hero {
+  background-image: url("/Hero-md.png");
+}
+
+/* Media query untuk layar di atas 1000px */
+@media screen and (min-width: 1000px) {
+  .hero {
+    background-image: url("/Hero.png"); /* Ganti dengan path gambar a */
+  }
+}
+
+/* Media query untuk layar di bawah 1000px */
+@media screen and (max-width: 999px) {
+  .hero {
+    background-image: url("/Hero-md.png"); /* Ganti dengan path gambar b */
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,12 +51,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
