@@ -26,8 +26,8 @@ export default function Home() {
         <div className="items-center flex justify-center flex-col m-3 p-[10px] md:w-[600px] md:h-[300px]">
           <h1 className="text-[#E5BC7F] font-montserrat font-bold mb-8">Siruntu Silayar</h1>
           <p className="font-montserrat text-center px-2">
-            merupakan tim KKN-PPM UGM 2024 yang berlokasi di Kecamatan Bontosikuyu, Kabupaten Kepulauan Selayar, Provinsi Sulawesi Selatan. Kecamatan ini memiliki beberapa desa. Desa Appatanah dan Desa Lowa merupakan beberapa desa yang
-            dijadikan sebagai lokasi KKN oleh Tim Siruntu Selayar pada tahun 2024
+            merupakan tim KKN-PPM UGM 2024 Periode II yang berlokasi di Kecamatan Bontosikuyu, Kabupaten Kepulauan Selayar, Provinsi Sulawesi Selatan. Kecamatan Bontosikuyu mencakup beberapa desa yaitu Desa Appatanah dan Desa Lowa yang
+            menjadi lokasi KKN oleh Tim Siruntu Silayar pada tahun 2024
           </p>
         </div>
       </div>
@@ -48,7 +48,7 @@ export default function Home() {
         <h3 className="font-montserrat text-center text-3xl text-[#0D1E32] font-bold my-1">LOGO KAMI</h3>
       </div>
       <div className="w-full flex justify-center py-[10px] items-center">
-        <div className="flex justify-center overflow-hidden md:w-[600px] md:h-[300px]">
+        <div className="flex justify-center overflow-hidden md:w-[600px] md:h-[300px] ">
           <img src="./LOGO-BUN.png" className="w-[100%] max-w-[300px]  p-5 "></img>
         </div>
       </div>
@@ -75,8 +75,8 @@ export default function Home() {
           <div className="w-[300px] h-[373px] border-solid border-2 rounded-[50px] shadow-lg p-[10px]">
             <div className="w-[280px] h-[350px] flex justify-center items-center flex-col pb-5">
               <img src="./ombak.png" className="w-[150px] h-[150px] mb-5"></img>
-              <div className="w-[280px] h-[127px] flex justify-center items-center flex-col pb-5">
-                <h5 className="text-xl font-montserrat font-bold mt-3">OMBAK</h5>
+              <div className="w-[280px] h-[127px] flex justify-center items-center flex-col pb-1">
+                <h5 className="text-xl font-montserrat font-bold mt-4">OMBAK</h5>
                 <p className="text-sm font-montserrat mt-2 text-center">Ombak melambangkan adanya sinergi dalam dinamika tim serta usaha kolaboratif dalam menghadapi berbagai tantyangan dan permasalahan yang ada</p>
               </div>
             </div>
@@ -84,8 +84,8 @@ export default function Home() {
           <div className="w-[300px] h-[373px] border-solid border-2 rounded-[50px] shadow-lg p-[10px]">
             <div className="w-[280px] h-[350px] flex justify-center items-center flex-col pb-5">
               <img src="./Lingkaran-new.png" className="w-[150px] h-[150px] mb-5"></img>
-              <div className="w-[280px] h-[127px] flex justify-center items-center flex-col pb-5">
-                <h5 className="text-xl font-montserrat font-bold mt-3">LINGKARAN</h5>
+              <div className="w-[280px] h-[127px] flex justify-center items-center flex-col pb-1">
+                <h5 className="text-xl font-montserrat font-bold mt-4">LINGKARAN</h5>
                 <p className="text-sm font-montserrat mt-2 text-center">Bentuk lingkaran sebagai perlambangan matahari memiliki makna yakni sinar harapan yang cerah serta kekuatan untuk melakukan perubahan</p>
               </div>
             </div>

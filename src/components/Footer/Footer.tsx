@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
           <div className="">
             <div className="font-montserrat  p-2">
-              <h3 className="text-[#E5BC7F] text-center md:text-left font-bold font-2xl md:pb-0">DISELENGGARAKAN OLEH</h3>
+              <h3 className="text-[#E5BC7F] text-center md:text-right font-bold font-2xl md:pb-0">DISELENGGARAKAN OLEH</h3>
             </div>
             <div className="flex justify-center items-center flex-row gap-5 p-2 mb:p-0">
               <div className="relative h-20 w-20 md:h-28 md:w-28">
