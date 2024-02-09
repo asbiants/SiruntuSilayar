@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { dataNavbar } from "@/data/Navbar";
-import { CgMenu } from "react-icons/cg";
+import { CgMenu, CgMenuRight } from "react-icons/cg";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
@@ -27,13 +27,13 @@ const Navbar = () => {
 
   return (
     <div className="bg-transparent z-10 border-3 my-2 fixed w-full min-h-screen ">
-      <div className={`${scrolling ? "bg-white" : "bg-white bg-opacity-50"} flex justify-between px-8 py-2 rounded-full mx-8`}>
+      <div className={`${scrolling ? "bg-white shadow-xl" : "bg-white bg-opacity-50"} flex justify-between px-8 py-2 rounded-full mx-8`}>
         <div className="flex justify-center items-center">
-          <img src="./Logo.png" className="w-[210px] h-[60px]"></img>
+          <img src="./Logo.png" className="w-[100%] max-w-[200px] max-h-[60px] gap-5"></img>
         </div>
-        <div className="flex place-items-center lg:hidden">
+        <div className="items-center lg:hidden">
           <button
-            className="w-[40px] h-[40px] flex justify-center items-center"
+            className="w-[60px] h-[60px] flex justify-center items-center"
             onClick={() => {
               setMenu(true);
             }}
